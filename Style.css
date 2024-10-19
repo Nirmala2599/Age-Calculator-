@@ -1,0 +1,152 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+ body {
+     font-family: 'Ubuntu', sans-serif;
+     background-color: rgb(58, 8, 58);
+     font-size: 15px;
+     line-height: 1.5;
+     padding: 0;
+     margin: 0;
+     }
+    .grid-container{
+        display: grid;
+        grid-template-rows:30% 60%;
+        gap: 1px;
+    }
+    .img{
+        margin: 20px 400px;
+        margin: top 10px;;
+ } 
+
+ * {
+     box-sizing: border-box;
+     
+    } .container {
+     width: 520px;
+     height: 520px;
+     margin: 80px 550px;
+     background-color:rgb(246, 23, 246);
+     border-radius:10%;
+    margin-top:5px;
+    
+      }
+.base {
+     width: 100%;
+     margin: 0;
+     overflow: hidden;
+     display: block;
+     float: none;
+     }
+
+ .block {
+     width: 135px;
+     padding: 5px 20px;
+     margin-left: 20px;
+     display: inline-block;
+     /* float: left; */
+ }
+
+ .base h4 {
+     font-size:35px;
+     text-align: center;
+     font-style: bold;
+ font-family: "Playfair Display", "Bookman", serif;
+            color: #8a055d;
+            letter-spacing: -0.005em;
+            word-spacing: 1px;
+            
+            }
+
+ .title {
+     font-size: large;
+     text-align: left;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: normal;
+     line-height: 0.5;
+     letter-spacing: 0.5px;
+     word-spacing: 2.7px;
+     color: #7507e4;
+     
+ }
+
+ input[type="text"] {
+     width: 140px;
+     margin: auto;
+     outline: none;
+     min-height: 50px;
+     border: 2px solid #10375c;
+     padding: 12px;
+     background-color: #b5fbbd;
+     border-radius: 2px;
+     color: #24282d;
+     font-size: 17px;
+     font-weight: bold;
+ }
+
+ input[type="text"]:focus {
+     background-color: #a6d1ee;
+     border: 2px solid gold;
+     outline: none;
+ }
+
+ input[type="button"] {
+     width: 150px;
+     margin-left: 35%;
+     margin-top: 40px;
+     outline: none;
+     border: 3px solid rgb(15, 96, 211);
+     border-radius: 15px;
+     background-color: rgb(15,96,211);
+     color: #ffffff;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 14px 16px;
+     text-align: center;
+     font-size: 24px;
+     transition: .3s;
+     
+ }
+
+ input[type="button"]:hover {
+     background-color: #05daee;
+     cursor: pointer;
+     border: 3px solid #05daee;
+     }
+     
+
+ #age {
+     display: block;
+     margin: 5px;
+     margin-top: 35px;
+     padding: 10px;
+     padding-bottom: 20px;
+     overflow: hidden;
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     line-height: 1.5;
+     word-spacing: 2.7px;
+     color: yellow;
+     text-align: center;
+ } 
+ @media only screen and (max-width:800px) {
+
+     /* For tablets: */
+     .main {
+         width: 80%;
+         padding: 0;
+     }
+
+     .right {
+         width: 100%;
+     }
+ }
+
+ @media only screen and (max-width:500px) {
+
+     /* For mobile phones: */
+     .menu,
+     .main,
+     .right {
+         width: 100%;
+     }
+ }
